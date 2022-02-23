@@ -1,0 +1,16 @@
+{
+  "mahasiswa": [
+    {
+      "nama": "Alfian",
+      "nim": "16.01.53.0012",
+      "id_kelas": "1",
+      "id": 1
+    },
+    {
+      "nama": "Edy Kurniawan",
+      "nim": "160103015",
+      "id_kelas": "11",
+      "id": 2
+    }
+  ]
+}
