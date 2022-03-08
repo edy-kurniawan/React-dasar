@@ -5,12 +5,14 @@ import ListMahasiswa from './components/mahasiswa/ListComponent';
 import AddMahasiswa from './components/mahasiswa/AddComponent';
 import UpdateMahasiswa from './components/mahasiswa/UpdateComponent';
 
+import DatatableComponent from "./components/mahasiswa/DatatableComponent";
+
 function App() {
   return (
     <div>
       <Navbar />
       <Routes>
-        <Route path="/" element={<ListMahasiswa />} />
+        <Route path="/" element={<DatatableComponent />} />
         <Route path="/add" element={<AddMahasiswa />} />
         <Route path="/edit/:id" element={<UpdateMahasiswa />} />
       </Routes>
